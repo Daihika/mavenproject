@@ -3,16 +3,7 @@
   <groupId>com.lbrce</groupId>
   <artifactId>com.MyProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-
-  <name>MavenFinal</name>
-  <url>http://maven.apache.org</url>
-  
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  
+ 
  <build>
 		<plugins>
 			<plugin>
@@ -22,11 +13,6 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18.1</version>
 			</plugin>
 			
 		</plugins>
@@ -40,7 +26,6 @@
 	    <version>7.8.0</version>
 	    <scope>test</scope>
 	</dependency>
-	  
   </dependencies>
   
 </project>
